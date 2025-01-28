@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #D5E1EF;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-container {
+    background-color: #FFFF;
+    width: 320px;
+    height: 499px;
+    border-radius: 20px;
+    padding: 16px 16px 40px 16px;
+    box-sizing: border-box;
+
+}
+
+#qr-code-container {
+    background-color: #2C7DFA;
+    border-radius: 10px;
+    width: 288px;
+    height: 288px;
+    display: flex;
+    justify-self: center;
+}
